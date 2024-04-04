@@ -32,7 +32,7 @@ function ModuleRoutes(app) {
     res.sendStatus(204);
   });
   app.get("/api/modules", (req, res) => {
-    const modules = Database.modules;
+    const modules = db.modules;
     res.send(modules);
   });
 
