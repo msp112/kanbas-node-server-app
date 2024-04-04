@@ -32,7 +32,11 @@ function AssignmentsRoutes(app) {
             .filter((m) => m.course === cid);
         res.send(assignments);
         });
-            
+    app.get("/api/assignments", (req, res) => {
+        const assignments = Database.assignments;
+        res.send(assignments);
+        });
+        
 //   app.get("/api/courses/assignments", (req, res) => {
 //     const assignments = Database.assignment;
 //     res.send(assignments);
