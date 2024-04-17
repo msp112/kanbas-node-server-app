@@ -7,7 +7,7 @@ export default [
       "lastName": "Cat",
       "email": "gar@field.com",
       "dob": "1970-05-29",
-      "role": "STUDENT"
+      "role": "USER"
     },
     {
       "_id": "122",
