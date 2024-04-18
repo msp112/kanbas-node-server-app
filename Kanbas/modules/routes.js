@@ -38,7 +38,7 @@ function ModuleRoutes(app) {
     const currentModule = await dao.findModuleById(id); 
     res.json(status); 
   };
-  app.put("/api/modules/:mid", updateModule)
+  app.put("/api/modules/:id", updateModule)
 }
 
 export default ModuleRoutes;
