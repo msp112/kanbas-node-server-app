@@ -4,7 +4,7 @@ const moduleSchema = new mongoose.Schema({
     description: { type: String},
     course: {type: String},
     endDate: {type: String}, 
-    lessons: {type: Array}
+    lessons: {type: Array},
   },
   { collection: "modules" });
 export default moduleSchema;
